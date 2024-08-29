@@ -3,7 +3,7 @@ import "@/styles/reset.css";
 import '@/styles/global.css'
 
 import Header from '@/components/header'
-import Footer from '@/components/header'
+import Footer from '@/components/footer'
 
 const inter = Inter({ subsets: ["latin"] });
 

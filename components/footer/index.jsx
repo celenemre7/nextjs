@@ -1,9 +1,17 @@
-import React from 'react'
+import React from "react";
+import Link from "next/link";
 
-function index() {
+import styles from "./styles.module.css";
+
+function Footer() {
   return (
-    <div>index</div>
-  )
+    <footer className={styles.footer}>
+      Made with ❤️ by 
+      <Link href="https://twitter.com/mehmetpekcan" target="_blank">
+        Mehmet Pekcan
+      </Link>
+    </footer>
+  );
 }
 
-export default index
+export default Footer;
